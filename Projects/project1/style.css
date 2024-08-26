@@ -1,0 +1,58 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    background: #d8cdcd;
+    border: 2px solid #161515;
+    border-radius: 30px;
+    margin: 1.5px;
+    cursor:pointer;
+    /* margin-top: 30px; */
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    height: 100vh;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+
+#black {
+
+    background-color: #333;
+    border: 1px solid rgb(151, 166, 233);
+
+}
+
+#yellow {
+    background-color:#ffd700;
+
+
+}
+
+#red {
+    background-color: red;
+
+}
+
+#grey {
+    background-color: #8a8a8a;
+
+}
+
+#blue {
+    background-color: #1e90ff;
+}
+#green {
+    background-color: rgb(75, 209, 75);
+}
+#purple{ 
+    background-color:purple;
+}

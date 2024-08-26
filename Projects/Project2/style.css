@@ -1,0 +1,68 @@
+body {
+    background-color: #b19f9f;
+    font-family: Arial, sans-serif;
+    margin:20px;
+    padding: 0; 
+}
+
+/* .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+.containar{
+  
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 20px auto; /* Center the button horizontally */
+    display: block; /* Ensure the button is treated as a block element */
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}

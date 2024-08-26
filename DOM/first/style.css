@@ -1,0 +1,30 @@
+h1{
+    height: 100px;
+    width: 100px;
+    margin:30px;
+    border-radius: 50px;
+    padding: 20px 30px 15px 15px;
+    background-color: rgb(101, 96, 96);
+    color: white;
+}
+button{
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgb(101, 96, 96);
+    color: white;
+    font-size: 20px;
+
+}
+.off{
+
+    height: 50px;
+    width: 50px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgb(101, 96, 96);
+    color: white;
+    font-size: 20px;
+
+}

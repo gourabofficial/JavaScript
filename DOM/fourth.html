@@ -1,0 +1,43 @@
+// dom manuplation in JavaScript
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manuplation</title>
+</head>
+
+<body style="background: #212121; color:#fff">
+    <div>
+        <div>
+            <h1>JAVA Proramming Language</h1>
+            <h2 id="myid">Html,Css,JavaScript</h2>
+            <div class = "dev1">
+                <h2> h2 </h2>
+            </div>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates nam placeat repellat, aliquam
+                molestiae eligendi, doloremque ea soluta hic consectetur voluptate, impedit excepturi vitae facilis.
+                Quia recusandae voluptatem numquam sunt.
+                
+            </p>
+        </div>
+    </div>
+    <script>
+        const myid = document.getElementById('myid');
+        console.log(myid);
+        console.log(myid.innerHTML);
+        console.log(myid.innerText);
+        console.log(myid.textContent);
+        myid.innerHTML = "Hello World";
+        myid.innerText = "Hello World";
+        myid.textContent
+        
+       
+    </script>
+</body>
+
+</html>
