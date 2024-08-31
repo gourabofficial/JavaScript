@@ -7,7 +7,7 @@ const getFact = async () => {
     let response = await fetch(url);
     console.log(response); // json format 
     let data = await response.json();
-    fact.innerText = data[2].text;
+    fact.innerText = data[0].text;
    
 }
 btn.addEventListener("click", getFact);
