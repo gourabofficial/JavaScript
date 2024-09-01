@@ -20,3 +20,5 @@ async function fetchData() {
     console.log("Fetching data...");
     await getData(4);
 }
+
+fetchData();
