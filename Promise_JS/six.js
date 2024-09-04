@@ -51,7 +51,7 @@ promiseSeven
         console.log("all are working fine");
     })
 
-
+// using aysnc await
 async function Getinfo() {
     try {
         const response1 = await fetch('https://api.github.com/users/BuddhadebKoner');
@@ -65,3 +65,28 @@ async function Getinfo() {
     }
 }
 Getinfo();
+
+//using promise 
+const promiseGetinfo = new Promise((resolve, reject) => {
+    const url = fetch('https://api.github.com/users/BddhadebKoner')
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                console.log(`Error: ${response.status}`)
+            }
+        })
+        .then(data => {
+            resolve(data);
+        })
+        .catch(error => {
+            reject(error);
+            
+        });
+});
+
+promiseGetinfo.then(data => {
+    console.log(data);
+}).catch(error=>{
+    console.log(error)
+})
