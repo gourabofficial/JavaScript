@@ -10,8 +10,13 @@ function information(username, passward, isLoogdin) {
 
 const userOne = new information("Gourab", 1234, true);
 const userTwo = new information("Rana", 2222, false);
+const userThree = new information("kiran", 2222, false);
+
+
 console.log(userOne)
 userOne.Printinfo()
 
 console.log(userTwo)
 userTwo.Printinfo()
+
+console.log(userThree)
