@@ -13,4 +13,5 @@ const userTwo = new information("Rana", 2222, false);
 console.log(userOne)
 userOne.Printinfo()
 
-// console.log(userTwo)
+console.log(userTwo)
+userTwo.Printinfo()
