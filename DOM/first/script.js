@@ -10,6 +10,7 @@ btnOn.addEventListener("click", function () {
     if (value == 0) {
         light.style.backgroundColor = "yellow"
         console.log("light on")
+        console.log(value)
         value = 1
     } else {
         light.style.backgroundColor = "transparent"
