@@ -9,10 +9,12 @@ btn.addEventListener("click", () => {
         mode = "dark";
         mybody.style.backgroundColor = "black"
         h1.style.color = "white";
+        btn.innerHTML = "Light mode"
     } else {
         mode = "light";
         mybody.style.backgroundColor = "white"
         h1.style.color = "black";
+        btn.innerHTML = "Dark Mode"
     }
     console.log(mode);
 
