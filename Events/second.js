@@ -8,7 +8,7 @@ btn.addEventListener("click", () => {
     if (mode === "light") {
         mode = "dark";
         mybody.style.backgroundColor = "black"
-        h1.style.color = "white";
+        h1.style.color = "red";
         btn.innerHTML = "Light mode"
     } else {
         mode = "light";
